@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Single-Page CV">
+    <meta property="og:description" content="A simple single-page CV template built with HTML only.">
+    <link rel="icon" href="./assets/favicon.png" type="image/png">
+    <title>Single-Page CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;   
+        }
+        .container {
+            border: 2px solid #2C2C2C;
+            width: 80%;
+            margin: 24px auto;
+            padding: 48px;
+        }
+        h2 {
+            color: #139219;
+        }
+        h3 {
+            color: blue;
+        }
+        .profile-cv {
+            margin-bottom: 16px;
+        }
+        .profile-cv hr {
+            height: 5px;
+            width: 50%;
+            background-color: #2C2C2C;
+            margin-bottom: 16px;
+        }
+        .profile-cv h1 {
+            font-size: 32px;
+            margin-bottom: 8px;
+            font-style: italic;
+        }
+
+        .profile-cv h2 {
+            margin-bottom: 16px;
+        }
+        .profile-cv p {
+            font-size: 16px;
+            color: #2C2C2C;
+            margin-bottom: 4px;
+        }
+        .about-me h2 {
+            margin-bottom: 16px;
+        }
+        .about-me p {
+            font-size: 16px;
+            color: #2C2C2C;
+        }
+        .about-me {
+            margin-bottom: 16px;
+        }
+        .proof-of-skills h2,
+        .proof-of-skills h3 {
+            margin-bottom: 8px;
+            position: relative;
+        }
+        .right-aligned-element {
+            position: absolute;
+            right: 2%;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <header class="profile-cv">
+            <hr>
+            <h1>Christian Libanag</h1>
+            <h2>Aspiring Junior Front-End Developer</h2>
+            <p>Philippines Region 3 (Central Luzon)</p>
+            <p>+63-948-2514-220</p>
+            <p>christianlibanag08@gmail.com</p>
+        </header>
+        <summary class="about-me">
+            <h2>About</h2>
+            <p>I have experience in online selling, 
+                graphic design, and web development. 
+                I create basic logos, social media advertisements, 
+                and promotional materials using Canva, 
+                while also managing product inventory and sales records in Excel. 
+                I have hands-on experience with Figma, HTML, CSS, JavaScript, React.js, and Tailwind CSS. 
+                I use Visual Studio Code, Git, and GitHub to build, manage, and improve web projects.</p>
+        </summary>
+        <section class="proof-of-skills">
+            <h2>Work Experience</h2>
+            <ul>
+                <li><h3>Computer Parts Online Seller <span class="right-aligned-element">2026</span></h3></li>
+                <p>Managed my own online computer parts business, handling product posting, customer inquiries, sales, and order coordination. Created promotional graphics and product content to attract customers and increase engagement. Managed social media marketing and assisted customers in selecting suitable computer components based on their needs and budget.</p>
+                <li><h3>Virtual Assistant | Social Media & Graphic Design <span class="right-aligned-element">2024-2025</span></h3></li>
+                <p>Managed Facebook pages for small businesses, including responding to customer inquiries, creating logos, social media advertisements, and product content. Assisted in developing marketing strategies and promotional ideas to increase customer engagement and sales.</p>
+            </ul>
+            <br>
+            <h2>Education & Certifications</h2>
+            <ul>
+                <li><h3>Front-End Developement</h3><span>Coursera - Meta</span></li>
+                    <p>Comprehensive training covering core web development technologies including 
+                        HTML5, CSS3, JavaScript, and responsive layout design. 
+                        Focused on building accessible, user-friendly, and performant web interfaces.</p>
+                
+                <li><h3>React</h3><span>Coursera - Meta</span></li>
+                <p>In-depth course on building scalable single-page applications using React. Focused on component-based architecture, state management, modern React Hooks, dynamic data rendering, and cross-browser testing.</p>
+                <li><h3>Figma UI/UX Design Essentials</h3><span>Coursera - Skillshare</span></li>
+                <p>Hands-on program covering key UI/UX design principles, user flow creation, wireframing, and interactive prototyping in Figma. Focused on creating responsive, intuitive web and mobile interface designs</p>
+                <li><h3>Programming with JavaScript</h3><span>Coursera - Meta</span></li>
+                <p>Practical course in modern JavaScript (ES6+), covering fundamental programming concepts, DOM manipulation, asynchronous programming, object-oriented concepts, and basic unit testing with Jest.</p>
+            </ul>
+        </section>
+        <footer>
+            <br>
+            <h2>Skiils</h2>
+            <ul>
+                <li>HTML5, CSS3, JavaScript</li>
+                <li>React.js & Tailwind CSS</li>
+                <li>UI/UX Design (Figma)</li>
+                <li>Git & GitHub Version Control</li>
+                <li>Graphic Design (Canva)</li>
+                <li>MS Excel & Google Sheets</li>
+                <li>Customer Service & Chat</li>
+                <li>Inventory & Sales Tracking</li>
+                <li>Social Media Management</li>
+            </ul>
+        </footer>
+        
+    </main>
+</body>
+</html>
